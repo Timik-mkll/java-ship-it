@@ -116,7 +116,7 @@ public class DeliveryApp {
             fragileParcel.reportStatus(newLocation);
         }
     }
-
+    //
     public static void checkBox() {
         System.out.println("Укажите тип коробки: 1 - Стандартная / 2 - Хрупкая / 3 - Скоропортящаяся");
         int boxType = scanner.nextInt();
